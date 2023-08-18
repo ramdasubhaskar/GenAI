@@ -7,25 +7,25 @@ Original file is located at
     https://colab.research.google.com/drive/1On-tnm49a8DPidqzWGB1AvDeHm0oYrDz
 """
 
-pip install langchain
+!pip install langchain
 
-pip install chromadb
+!pip install chromadb
 
-pip install tiktoken
+!pip install tiktoken
 
 # Commented out IPython magic to ensure Python compatibility.
 # %pip install beautifulsoup4 requests pandas langchain tiktoken pyarrow fastparquet chromadb typing-inspect==0.8.0 typing_extensions==4.5.0 --user
 
-pip install pydantic==1.10.9
+!pip install pydantic==1.10.9
 
 # pip install --force-reinstall typing-extensions==4.5.0
 
 !pip install pydantic -U
 
-pip install huggingface_hub
+!pip install huggingface_hub
 
-pip install sentence_transformers
-pip install streamlit
+!pip install sentence_transformers
+!pip install streamlit
 
 
 import os
